@@ -10,11 +10,11 @@
 .contactHeader {
   margin-bottom: 3.5rem;
 }
-.location {
-  width: 590px;
-}
 
 @media only screen and (max-width: 1069px) {
+  .contactDiv{
+    width: 500px;
+  }
   .contactContainer {
     display: flex;
     flex-wrap: wrap;

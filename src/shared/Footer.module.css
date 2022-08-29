@@ -1,20 +1,20 @@
 .footer{
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 70%;
   height: 2.5rem; 
   display: flex;
   gap: 3.5rem;
 }
 
 .about{
-  width: 33%;
+  width: 40%;
 }
 .contact{
-  width: 33%;
+  width: 40%;
 }
 .links{
-  width: 33%;
+  width: 20%;
 }
 
 
