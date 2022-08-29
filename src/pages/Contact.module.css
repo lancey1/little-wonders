@@ -1,6 +1,6 @@
 .contactContainer {
   display: flex;
-  gap: 5rem;
+  gap: 2.5rem;
 }
 
 .locationHeader {
@@ -8,10 +8,10 @@
 }
 
 .contactHeader {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 .location {
-  width: 550px;
+  width: 590px;
 }
 
 @media only screen and (max-width: 1069px) {
@@ -25,10 +25,9 @@
   }
 
   .contactHeader {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
   .map {
-    margin-top: -50px;
     max-width: 50px;
     max-height: 50px;
   }

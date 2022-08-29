@@ -9,10 +9,11 @@ export default function Contact() {
 
   return(
     <div>
-    <h1 className={`${styles.contactHeader}`}>Contact Us</h1>
+    <h1>Contact Us</h1>
+    <h3 className={`${styles.contactHeader}`}>Feel free to get in touch. Have a general question? We would like to hear from you. We are only an email or call away!</h3>
     <div className={`${styles.contactContainer}`}>
       <div className={`${styles.location}`}>
-        <h2 className={`${styles.locationHeader}`}>Our Location</h2>
+        <h3 className={`${styles.locationHeader}`}>Our Location</h3>
         <p>84 Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
         <p>Steps from Marie of the Incarnation Separate School</p>
         <p>Phone: 647-524-4429</p>
