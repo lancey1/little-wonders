@@ -1,0 +1,35 @@
+.contactContainer {
+  display: flex;
+  gap: 5rem;
+}
+
+.locationHeader {
+  margin-top: 0;
+}
+
+.contactHeader {
+  margin-bottom: 3rem;
+}
+.location {
+  width: 550px;
+}
+
+@media only screen and (max-width: 1069px) {
+  .contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .locationHeader {
+    margin-top: 0;
+  }
+
+  .contactHeader {
+    margin-bottom: 3rem;
+  }
+  .map {
+    margin-top: -50px;
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
