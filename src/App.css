@@ -1,11 +1,12 @@
 main {
   width: 100%;
+  flex-grow: 1;
 }
 html {
   overflow-x: hidden;
   margin: 0 auto;
   min-width: 500px;
-  width: 100%;
+  width: 85%;
   color: rgb(60, 60, 60);
 }
 

@@ -6,7 +6,7 @@ export default function footer() {
       <div className={`${styles.about}`}>
         <h3>About Us</h3>
         <p>
-          Little Wonders is a home daycare located in Bradford ON. Operated by an
+          Little Wonders is a daycare located in Bradford ON. Operated by an
           experienced Registered Early Childhood Educator with more than
           8 years of experience. Open for ages 30 months and above.
         </p>

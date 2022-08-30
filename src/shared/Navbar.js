@@ -9,7 +9,7 @@ function Navbar() {
   <div className={`${styles.navbar}`}>
     <div className={`${styles.container}`}>
       <div>
-        <img onClick= {()=>navigate('/')} className= {`${styles.logo}`} src={logo} alt="logo"/>
+        <img onClick= {()=>navigate('/')} className= {`${styles.logo}`} src={logo} alt="little wonders' logo"/>
       </div>
       <ul className={`${styles.links}`}>
         <li><NavLink to="/">Home</NavLink></li>

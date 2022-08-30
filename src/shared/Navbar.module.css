@@ -5,7 +5,7 @@
   position: relative;
   width: 100%;
   height: 3rem;
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-bottom: 1px solid hsla(1, 1%, 100%, 0.2);
   z-index: 1;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -27,10 +27,6 @@
   justify-content: flex-end;
 }
 
-.logo{
-  margin-left: -12rem;
-}
-
 li {
   font-size: 1.2rem;
   padding: 1em;
@@ -49,6 +45,10 @@ li:hover {
 .logo {
   justify-content: flex-start;
   height: 14rem;
+  margin-left: -12rem;
+}
+.links{
+  margin-right: -12rem;
 }
 
 .logo:hover {
@@ -84,11 +84,14 @@ li:hover {
     transition: none;
   }
   
+  .links{
+    margin-right: 0;
+  }
   .logo {
     justify-content: flex-start;
     height: 12rem;
     margin-top: -.55rem;
-    margin-left: -2rem;
+    margin-left: 125px;
   }
   
   .logo:hover {
