@@ -2,13 +2,15 @@
   margin-left: 10.5%;
   margin-bottom: 7rem;
 }
-
+.aboutHeader {
+  margin-bottom: 2.5rem;
+}
 .divContainer {
   margin-left: 10%;
   gap: 1rem;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 420px;
   width: 70%;
 }
 .divChild1 {
@@ -22,6 +24,7 @@
 .pfp {
   border-radius: 5px;
   height: 25rem;
+  margin-top: 1rem;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -37,11 +40,16 @@
 }
 
 .divp1 {
-  width: 500px;
+  white-space: pre-line;
+  width: 400px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+}
+
+.divp2 {
+  white-space: pre-line;
 }
 
 @media only screen and (max-width: 1069px) {
@@ -49,7 +57,7 @@
     margin-bottom: 2rem;
   }
   .divContainer {
-    margin-left: 20%;
+    margin-left: 25%;
     display: flex;
     flex-direction: column;
     justify-items: center;
