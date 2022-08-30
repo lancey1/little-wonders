@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import { NavLink } from "react-router-dom";
 
 export default function footer() {
   return (
@@ -21,9 +22,15 @@ export default function footer() {
       </div>
       <div className={`${styles.links}`}>
         <h3>Quick Links</h3>
-        <p>About</p>
-        <p></p>
-        <p>Contact</p>
+        <p>
+          <NavLink to="services">Services</NavLink>
+        </p>
+        <p>
+          <NavLink to="about">About</NavLink>
+        </p>
+        <p>
+          <NavLink to="contact">Contact Us</NavLink>
+        </p>
       </div>
     </div>
   );

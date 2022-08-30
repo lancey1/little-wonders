@@ -1,0 +1,110 @@
+.servicesDiv {
+  margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.servicesHeader {
+  white-space: pre-line;
+  margin-bottom: 3.5rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 62%;
+  padding: 0.75rem;
+}
+
+.servicesContainer {
+  display: flex;
+  gap: 2.5rem;
+  width: 85%;
+}
+
+.servicesPicture {
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.play {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 33%;
+  text-align: center;
+}
+
+.nutrition {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 33%;
+  text-align: center;
+
+}
+
+.activity {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 33%;
+  text-align: center;
+}
+
+.playImg {
+  border-radius: 5px;
+  width: 100%;
+}
+.nutritionImg {
+  border-radius: 5px;
+  width: 100%;
+}
+.activityImg {
+  border-radius: 5px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1069px) {
+  .servicesDiv {
+    margin-left: 10%;
+    width: 500px;
+    margin-bottom: 2rem;
+  }
+
+  .servicesHeader {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .servicesContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 1.5rem;
+  }
+
+  .servicesPicture {
+    width: 100%;
+    height: auto;
+  }
+
+  .play {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .nutrition {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .activity {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+  }
+}

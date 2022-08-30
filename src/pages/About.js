@@ -6,8 +6,8 @@ export default function About() {
   return (
     <div className={`${styles.aboutDiv}`}>
       <h1 className={`${styles.aboutHeader}`}>About Us</h1>
-      <div className={`${styles.divContainer}`}>
-        <img className={`${styles.house}`} src={house} alt="Daycare Area" />
+      <div className={`${styles.aboutContainer}`}>
+        <img className={`${styles.house}`} src={house} alt="Little Wonders Bradford Daycare Area" />
         <p className={`${styles.divp1}`}>
           <b>About Little Wonders</b>
           {"\n"}
@@ -24,9 +24,9 @@ export default function About() {
           Educator with more than 8 years of experience.{"\n"}
           {"\n"} We are currently accepting children ages 30 months and above.
         </p>
-        <img className={`${styles.pfp}`} src={pfp} alt="Ms. Rohit" />
+        <img className={`${styles.pfp}`} src={pfp} alt="Ms. Rohit, Operator of Little Wonders Daycare in Bradford" />
         <p className={`${styles.divp2}`}>
-          Ms. Rohit is a mother of two daughters aged 12 and 15 years old.{" "}
+          Ms. Rohit is a wife and mother of two, aged 12 and 15 years old.
           {"\n"}
           {"\n"} She is proficient in multiple languages: English, Punjabi and
           Hindi. She also understands a few basic Russian words. {"\n"}

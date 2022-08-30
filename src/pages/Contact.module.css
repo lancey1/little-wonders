@@ -1,15 +1,15 @@
-
-
-.contactDiv{
-  margin-left: 10.5%;
+.contactDiv {
   margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .contactContainer {
   display: flex;
   gap: 2.5rem;
 }
-
 
 .locationHeader {
   margin-top: 0;
@@ -20,7 +20,7 @@
 }
 
 @media only screen and (max-width: 1069px) {
-  .contactDiv{
+  .contactDiv {
     margin-left: 10%;
     width: 500px;
     margin-bottom: 2rem;
