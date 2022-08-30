@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/services/play" element={<Play />} />
         <Route exact path="/services/nutrition" element={<Nutrition />} />
         <Route exact path="/" element={<Home />} />
-        {/* <Route path="*" element={<Navigate to="/" />} /> */}
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer/>
     </main>
