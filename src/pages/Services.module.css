@@ -20,6 +20,10 @@
   margin-bottom: 20rem;
 }
 
+.servicesContainer h3 {
+font-size: 1.4rem;
+}
+
 .servicesPicture {
   width: 1000px;
   height: 500px;
@@ -69,6 +73,8 @@
 
 .ullist li{
   padding:.75rem;
+  font-size: 1.15rem;
+    list-style: none;
 }
 
 @media only screen and (max-width: 1069px) {

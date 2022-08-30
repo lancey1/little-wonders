@@ -90,7 +90,7 @@ export default function Services() {
             onMouseEnter={leftHoverHandler}
           ></img>
           <h3>Play and Learn</h3>
-          {showLeft && <ServiceDropDown p={play}></ServiceDropDown>}
+          {showLeft && <ServiceDropDown p={play} url={'play'}></ServiceDropDown>}
         </div>
         <div className={`${styles.activity}`} onMouseLeave={mouseLeave}>
           <img
@@ -100,7 +100,7 @@ export default function Services() {
             onMouseEnter={middleHoverHandler}
           ></img>
           <h3>Activities</h3>
-          {showMiddle && <ServiceDropDown p={activity}></ServiceDropDown>}
+          {showMiddle && <ServiceDropDown p={activity} url={'activities'}></ServiceDropDown>}
         </div>
         <div className={`${styles.nutrition}`} onMouseLeave={mouseLeave}>
           <img
@@ -110,7 +110,7 @@ export default function Services() {
             onMouseEnter={rightHoverHandler}
           ></img>
           <h3>Nutrition</h3>
-          {showRight && <ServiceDropDown p={nutrition}></ServiceDropDown>}
+          {showRight && <ServiceDropDown p={nutrition} url={''}></ServiceDropDown>}
         </div>
       </div>
     </div>

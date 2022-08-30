@@ -1,0 +1,70 @@
+.homeDiv {
+  margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.homeHeader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  white-space: pre-line;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.homeContainer {
+  gap: 2.5rem;
+}
+
+.locationHeader {
+  margin-top: 0;
+}
+
+.landingImg {
+  width: 80%;
+  height: 650px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.video {
+}
+
+.homeDiv > video {
+  width: 100%;
+  height: auto;
+}
+
+
+.homeDiv > .overlay {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1069px) {
+  .homeHeader {
+    width: 100%;
+    font-size: 16px;
+  }
+  .homeDiv {
+    align-self: center;
+  }
+}

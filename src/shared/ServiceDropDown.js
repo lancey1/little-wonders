@@ -1,13 +1,17 @@
-import React from 'react'
-import styles from './ServiceDropDown.module.css';
+import React from "react";
+import styles from "./ServiceDropDown.module.css";
+import { useNavigate } from "react-router-dom";
 
-function ServiceDropDown(props) {
-    return (
-        <div className={`${styles.backdrop}`}>
-          {props.p}
-          <button className={`${styles.btn}`}>Learn More</button>
-        </div >
-    )
+export default function ServiceDropDown(props) {
+  let navigate = useNavigate();
+  return (
+    <div className={`${styles.backdrop}`}>
+      {props.p}
+      <button
+        onClick={() => navigate(`${props.url}`)}
+        className={`${styles.btn}`}>
+        Learn More
+      </button>
+    </div>
+  );
 }
-
-export default ServiceDropDown

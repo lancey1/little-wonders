@@ -25,7 +25,7 @@ function Navbar() {
             <div className={`${styles.dropdown}`}>
               <div className={`${styles.dropbtn}`}>
                 <NavLink to="services">
-                  Services <i class="fa-solid fa-angle-down"></i>
+                  Services <i className="fa-solid fa-angle-down"></i>
                 </NavLink>
               </div>
               <div className={`${styles.content}`}>

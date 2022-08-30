@@ -22,13 +22,20 @@
   background-color: white;
   color:#4267b2;
   border: 1px solid #4267b2;
-
-}
-
-li {
-  list-style: none;
 }
 
 .ullist {
   padding-left: 0;
+}
+
+
+@media only screen and (max-width: 1069px) {
+  .backdrop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: inherit;
+    padding-bottom: 2rem;
+    margin-top: -2rem;
+  }
 }
