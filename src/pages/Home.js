@@ -1,8 +1,7 @@
 import styles from "./Home.module.css";
 import { useMediaQuery } from "react-responsive";
-import landingpage from "../images/landingpage.jpg";
 import videobg from "../Videos/Education720p.mp4";
-import videoMobile from "../Videos/Education.mp4";
+import videoMobile from "../Videos/Educationlow.mp4";
 
 export default function Home() {
   const isDesktop = useMediaQuery({ query: "(min-width: 1070px)" });
