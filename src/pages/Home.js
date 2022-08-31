@@ -10,8 +10,8 @@ export default function Home() {
     <div className={`${styles.mainHomeDiv}`}>
       <div className={`${styles.homeDiv}`}>
         <div className={`${styles.overlay}`}></div>
-        {/* {isDesktop && <video className={`${styles.video}`} src={videobg} autoPlay loop muted  />}
-        {isTablet && <video className={`${styles.video}`} src={videoMobile} autoPlay loop muted />} */}
+        {isDesktop && <video className={`${styles.video}`} src={videobg} autoPlay loop muted  />}
+        {isTablet && <video className={`${styles.video}`} src={videoMobile} autoPlay loop muted />}
         <h1 className={`${styles.homeHeader}`}>
           Welcome to Little Wonders!
           {"\n"}

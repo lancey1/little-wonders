@@ -7,7 +7,7 @@
 }
 
 .homeDiv {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -53,26 +53,25 @@
 }
 
 @media only screen and (max-width: 1069px) {
-  
   .homeContainer {
     width: 100%;
   }
 
   .homeHeader {
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 58%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-size: 16px;
   }
 
   .homeDiv > video {
-    width: 100%;
+    width: 125%;
     height: auto;
   }
 
   .homeDiv > .overlay {
     display: inline-block;
-    width: 100%;
+    width: 125%;
   }
 }
