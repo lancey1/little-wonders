@@ -1,18 +1,17 @@
 .footer{
-  margin-left: 8.7%;
   position: absolute;
   bottom: 1;
-  width: 80%;
+  width: 100%;
   display: flex;
   gap: 3.5rem;
 }
 
 .about{
+  padding-left: 11%;
   width: 30%;
-  margin-right: 5%;
 }
 .contact{
-  width: 38%;
+  width: 25%;
 }
 .links{
   width: 20%;
@@ -21,23 +20,39 @@
 
 @media only screen and (max-width: 1069px) {
   .footer {
+    display: grid;
+    padding-left: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 170px;
     position: relative;
-    display: flex;
     flex-direction: column;
-    gap: 0rem;
+    gap: 1rem;
   }
   .about{
-    width: 80%;
-    margin-right: 0%;
+    padding-left: 0%;
+    text-align: center;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 2;
 
   }
   .contact{
-    width: 80%;
+    width: 100%;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
   .links{
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 420px;
-    width: 80%;
+    margin-left: 1rem;
+    width: 100%;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
 }

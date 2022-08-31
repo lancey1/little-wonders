@@ -1,7 +1,12 @@
 import styles from "./Footer.module.css";
 import { NavLink } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 
-export default function footer() {
+
+export default function Footer() {
+  const isDesktop = useMediaQuery({ query: "(min-width: 1070px)" });
+  const isTablet = useMediaQuery({ query: "(max-width: 1069px)" });
+
   return (
     <div className={`${styles.footer}`}>
       <div className={`${styles.about}`}>
@@ -11,16 +16,23 @@ export default function footer() {
           experienced Registered Early Childhood Educator with more than 8 years
           of experience.
         </p>
-        <p>Open for ages 30 months and above.</p>
+        <p>For children ages 30 months and above.</p>
       </div>
       <div className={`${styles.contact}`}>
         <h3>Contact Us</h3>
         <p>84 Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
         <p>Phone: 647-524-4429</p>
         <p>
-          <a href="mailto:rohitajaysharma84@gmail.com">
-            Email: rohitajaysharma84@gmail.com
-          </a>
+          {isDesktop && (
+            <a href="mailto:rohitajaysharma84@gmail.com">
+              Email: rohitajaysharma84@gmail.com
+            </a>
+          )}
+          {isTablet && (
+            <a href="mailto:rohitajaysharma84@gmail.com">
+              rohitajaysharma84@gmail.com
+            </a>
+          )}
         </p>
         <p>Hours: Monday to Friday 7:30 AM to 5:30 PM</p>
       </div>

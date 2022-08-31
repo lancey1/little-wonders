@@ -10,8 +10,8 @@ export default function Home() {
     <div className={`${styles.mainHomeDiv}`}>
       <div className={`${styles.homeDiv}`}>
         <div className={`${styles.overlay}`}></div>
-        {isDesktop && <video className={`${styles.video}`} src={videobg} autoPlay loop muted  />}
-        {isTablet && <video className={`${styles.video}`} src={videoMobile} autoPlay loop muted />}
+        {/* {isDesktop && <video className={`${styles.video}`} src={videobg} autoPlay loop muted  />}
+        {isTablet && <video className={`${styles.video}`} src={videoMobile} autoPlay loop muted />} */}
         <h1 className={`${styles.homeHeader}`}>
           Welcome to Little Wonders!
           {"\n"}
@@ -30,8 +30,8 @@ export default function Home() {
         <div className={`${styles.map}`}>
           {isDesktop && (
             <iframe
-              title={"Daycare Location"}
-              src={
+            title={"Little Wonders Location - 84 Porter St, Bradford, ON L3Z 1E8"}
+            src={
                 "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2864.2311478578104!2d-79.56545786076936!3d44.119854210998675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ac5887c148255%3A0xf9bbd1a51ab07306!2s84%20Porter%20St%2C%20Bradford%2C%20ON%20L3Z%201E8!5e0!3m2!1sen!2sca!4v1661800694935!5m2!1sen!2sca"
               }
               width="550"
@@ -43,12 +43,12 @@ export default function Home() {
           )}
           {isTablet && (
             <iframe
-              title={"Daycare Location"}
+              title={"Little Wonders Location - 84 Porter St, Bradford, ON L3Z 1E8"}
               src={
                 "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2864.2311478578104!2d-79.56545786076936!3d44.119854210998675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ac5887c148255%3A0xf9bbd1a51ab07306!2s84%20Porter%20St%2C%20Bradford%2C%20ON%20L3Z%201E8!5e0!3m2!1sen!2sca!4v1661800694935!5m2!1sen!2sca"
               }
-              width="525"
-              height="450"
+              width="100%"
+              height="430"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"

@@ -2,8 +2,8 @@
   margin-bottom: 10rem;
   display: flex;
   align-items: center;
-  justify-items: center;
   flex-direction: column;
+  padding: 2rem;
 }
 
 .homeDiv {
@@ -31,9 +31,6 @@
   margin-bottom: 3.5rem;
 }
 
-.homeContainer {
-  gap: 2.5rem;
-}
 
 .overlay {
   position: absolute;
@@ -58,7 +55,7 @@
 @media only screen and (max-width: 1069px) {
   
   .homeContainer {
-    margin-left: 15%;
+    width: 100%;
   }
 
   .homeHeader {
@@ -70,12 +67,12 @@
   }
 
   .homeDiv > video {
-    width: 140%;
+    width: 100%;
     height: auto;
   }
 
   .homeDiv > .overlay {
     display: inline-block;
-    width: 140%;
+    width: 100%;
   }
 }
