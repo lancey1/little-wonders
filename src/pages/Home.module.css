@@ -1,5 +1,13 @@
-.homeDiv {
+.mainHomeDiv {
   margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.homeDiv {
+  margin-bottom: 4rem;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -27,26 +35,14 @@
   gap: 2.5rem;
 }
 
-.locationHeader {
-  margin-top: 0;
-}
-
-.landingImg {
-  width: 80%;
-  height: 650px;
-}
-
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 1;
+  right: 1;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
-}
-
-.video {
 }
 
 .homeDiv > video {
@@ -54,17 +50,32 @@
   height: auto;
 }
 
-
 .homeDiv > .overlay {
   display: inline-block;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1069px) {
+  
+  .homeContainer {
+    margin-left: 15%;
+  }
+
   .homeHeader {
-    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
     font-size: 16px;
   }
-  .homeDiv {
-    align-self: center;
+
+  .homeDiv > video {
+    width: 140%;
+    height: auto;
+  }
+
+  .homeDiv > .overlay {
+    display: inline-block;
+    width: 140%;
   }
 }

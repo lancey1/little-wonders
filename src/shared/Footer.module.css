@@ -35,6 +35,9 @@
     width: 80%;
   }
   .links{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 420px;
     width: 80%;
   }
 }

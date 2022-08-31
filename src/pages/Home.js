@@ -13,13 +13,20 @@ export default function Home() {
         {isDesktop && <video className={`${styles.video}`} src={videobg} autoPlay loop muted  />}
         {isTablet && <video className={`${styles.video}`} src={videoMobile} autoPlay loop muted />}
         <h1 className={`${styles.homeHeader}`}>
-          Welcome to Little Wonders.
+          Welcome to Little Wonders!
           {"\n"}
           {"\n"}
           Your Child's Learning Journey Begins Here.
+          {"\n"}
+          {"\n"}
+          Accepting Full-Time Children Aged 30 Months And Up.
         </h1>
       </div>
       <div className={`${styles.homeContainer}`}>
+        {isTablet && 
+        <div>Tablet Mode</div>}
+        <div></div>
+        <div></div>
         <div className={`${styles.map}`}>
           {isDesktop && (
             <iframe

@@ -71,10 +71,10 @@ export default function Services() {
         className={`${styles.servicesPicture}`}
       ></img>
       <div className={`${styles.servicesHeader}`}>
-        <h3>What Separates Little Wonders from other daycares? {"\n"}</h3>
+        <h3>What separates Little Wonders from other daycares? {"\n"}</h3>
         <p>
           <i>
-            "Unlike other home daycares, we follow Play-based learning, emergent
+            "Unlike other home daycares, we follow play-based learning, emergent
             curriculum that leads to Ready for Kindergarten approach using
             worksheets, sensory visual learning, introduction to alphabets,
             practice writing names, numbers and shapes."

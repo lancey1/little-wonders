@@ -21,7 +21,8 @@
 
 @media only screen and (max-width: 1069px) {
   .contactDiv {
-    margin-left: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
     width: 500px;
     margin-bottom: 2rem;
   }
@@ -36,5 +37,6 @@
 
   .contactHeader {
     margin-bottom: 1.5rem;
+    text-align: center;
   }
 }
