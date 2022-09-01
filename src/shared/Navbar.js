@@ -44,17 +44,17 @@ function BasicExample() {
                 title="Services"
                 id="basic-nav-dropdown">
 
-                <NavDropdown.Item href="services/play">
+                <NavDropdown.Item href="/services/play">
                   Play {"&"} Learn
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
 
-                <NavDropdown.Item href="services/activities">
+                <NavDropdown.Item href="/services/activities">
                   Activities
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 
-                <NavDropdown.Item href="services/nutrition">
+                <NavDropdown.Item href="/services/nutrition">
                   Nutrition
                 </NavDropdown.Item>
               </NavDropdown>
@@ -84,11 +84,11 @@ function BasicExample() {
             <Nav className="me-auto">
               <Nav.Link className={`${styles.links}`} href="/">Home</Nav.Link>
               <NavDropdown.Divider className={`${styles.links}`} />
-              <Nav.Link className={`${styles.links}`} href="services">Services</Nav.Link>
+              <Nav.Link className={`${styles.links}`} href="/services">Services</Nav.Link>
               <NavDropdown.Divider className={`${styles.links}`}/>
-              <Nav.Link className={`${styles.links}`} href="about">About</Nav.Link>
+              <Nav.Link className={`${styles.links}`} href="/about">About</Nav.Link>
               <NavDropdown.Divider className={`${styles.links}`} />
-              <Nav.Link className={`${styles.links}`} href="contact">Contact Us</Nav.Link>
+              <Nav.Link className={`${styles.links}`} href="/contact">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
