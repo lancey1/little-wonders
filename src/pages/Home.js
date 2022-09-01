@@ -31,7 +31,7 @@ export default function Home() {
           Accepting Full-Time Children Aged 30 Months And Up.
         </h1>
       </div>
-      <h1 className={`${styles.servicesHeader}`}>Our Services</h1>
+      <h1 className={`${styles.homeHeading}`}>Our Services</h1>
       <div className={`${styles.homeShowcase}`}>
         <div className={`${styles.homePlay}`}>
         <div className={`${styles.overlay}`}></div>
@@ -71,8 +71,45 @@ export default function Home() {
         </div>
         </div>
       </div>
-
-      <h1 className={`${styles.servicesHeader}`}>Our Location</h1>
+      <h1 className={`${styles.homeHeading}`}>About Us</h1>
+      <div className={`${styles.homeAboutContainer}`}>
+      <div className={`${styles.homeAbout}`}>
+        <p className={`${styles.divp1}`}>
+          <h4>About Little Wonders</h4>
+          Little Wonders is a home daycare located in Bradford Ontario.           
+          {"\n"}
+          {"\n"}
+          We are currently accepting children ages 30 months and above.
+          {"\n"}
+          {"\n"}
+          Operated by Ms. Rohit, an experienced Registered Early Childhood
+          Educator with more than 8 years of experience.
+          {"\n"}
+          {"\n"} Ms. Rohit previously worked in child care centers that are
+          well-renowned in the local communities of Bradford, Thornhill, and
+          Vaughan since 2013.
+          {"\n"} 
+          {"\n"} 
+        </p>
+        <p className={`${styles.divp2}`}>
+        <h4>About Ms. Rohit</h4>
+          Ms. Rohit is a wife and mother of two, aged 12 and 15 years old.
+          {"\n"} 
+          {"\n"}
+          She is proficient in multiple languages: English, Punjabi and
+          Hindi.
+          {"\n"}
+          {"\n"}
+          She is first-aid CPR certified, fully vaccinated including Covid-19,
+          and has vulnerable sector clearance.
+          {"\n"}
+          {"\n"} Her passion and expertise in children motivated her into
+          opening her very own daycare center.
+        </p>
+      </div>
+      <button>More About Us</button>
+      </div>
+      <h1 className={`${styles.homeHeading}`}>Our Location</h1>
       <div className={`${styles.homeContactdiv}`} >
       <div className={`${styles.contactContainer}`}>
       <div className={`${styles.location}`}>

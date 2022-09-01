@@ -1,5 +1,5 @@
 .mainHomeDiv {
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@
   text-align: center;
   margin-bottom: 3.5rem;
 }
-.servicesHeader {
+.homeHeading {
   margin-bottom: 2rem;
 }
 
@@ -32,13 +32,66 @@
   width: 90%;
 }
 
-.contactContainer{
+.contactContainer {
   display: flex;
   flex-direction: row;
   gap: 2.5rem;
-
 }
-.locationHeader{
+.locationHeader {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.homeAboutContainer {
+  border: 2px black solid;
+  border-radius: 5px;
+  box-shadow: 5px 8px grey;
+  margin-bottom: 3rem;
+}
+.homeAboutContainer button {
+  position: relative;
+  left: 45%;
+  margin-bottom: 3rem;
+  align-self: center;
+  width: 10rem;
+  height: 3.25rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #4267b2;
+  color: white;
+}
+.homeAboutContainer button:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#4267b2;
+  border: 1px solid #4267b2;
+}
+
+.homeAbout {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+.divp1 {
+  white-space: pre-line;
+  width: 50%;
+  padding-right: 1rem;
+  overflow-wrap: break-word;
+}
+.divp1 h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.divp2 {
+  white-space: pre-line;
+  width: 50%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+}
+.divp2 h4 {
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -65,7 +118,7 @@
   display: inline-block;
   width: 100%;
 }
-/* Ends */
+/* Video Ends */
 
 /* Overlay for Images */
 .homeImgs {
@@ -76,7 +129,6 @@
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
-
 .homePlay,
 .homeNutrition,
 .homeActivity {
@@ -85,7 +137,6 @@
   margin-bottom: 1rem;
   padding: 0 1% 2%;
 }
-
 .textContainer {
   transition: 0.5s ease;
   opacity: 0;
@@ -96,7 +147,6 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .text {
   background-color: #4267b2;
   color: white;
@@ -108,14 +158,12 @@
   cursor: pointer;
   opacity: 0.8;
 }
-
 .homePlay:hover .homeImgs {
   opacity: 0.5;
 }
 .homePlay:hover .textContainer {
   opacity: 1;
 }
-
 .homeNutrition:hover .homeImgs {
   opacity: 0.3;
 }
@@ -128,7 +176,7 @@
 .homeActivity:hover .textContainer {
   opacity: 1;
 }
-/* Ends */
+/* Images Ends */
 
 @media only screen and (max-width: 1069px) {
   .mainHomeDiv {
@@ -171,5 +219,52 @@
     font-size: 24px;
     padding: 0.5rem;
     border-radius: 5px;
+  }
+  .location {
+    text-align: center;
+  }
+  .homeAbout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .homeAboutContainer {
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+
+  .homeAboutContainer button {
+    position: relative;
+    left: 32.5%;
+    margin-bottom: 0rem;
+  }
+
+  .divp1 {
+    white-space: pre-line;
+    width: 100%;
+    padding-right: 1rem;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  .divp1 h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .divp2 {
+    white-space: pre-line;
+    width: 100%;
+    padding-left: 1rem;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  .divp2 h4 {
+    text-align: center;
+    margin-bottom: 1rem;
   }
 }

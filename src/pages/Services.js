@@ -11,9 +11,6 @@ export default function Services() {
   const [showMiddle, setShowMiddle] = useState(false);
   const [showLeft, setShowLeft] = useState(false);
 
-  // const [isShown, setIsShown] = useState(false);
-  // const mouseEnter = () => setIsShown(true);
-
   const mouseLeave = () => {
     setShowRight(false);
     setShowMiddle(false);

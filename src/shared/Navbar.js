@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
+import {LinkContainer} from 'react-router-bootstrap'
 import styles from "./Navbar.module.css";
 import logo from "../images/logo2.png";
 import Container from "react-bootstrap/Container";
@@ -30,7 +31,9 @@ function BasicExample() {
               alt="little wonders' in Bradford Ontario logo"
             />
             <Nav className={`me-auto ${styles.linksContainer}`}>
-              <Nav.Link className={`${styles.links}`} href="/">Home</Nav.Link>
+            <LinkContainer to="/">
+              <Nav.Link className={`${styles.links}`}>Home</Nav.Link>
+              </LinkContainer>
               {/* Dropdown Begins */}
               <NavDropdown
                 className={`${styles.links} ${styles.dropdown}`}
@@ -39,23 +42,29 @@ function BasicExample() {
                 onMouseEnter={showDropdown}
                 onMouseLeave={hideDropdown}
                 title="Services"
-                id="basic-nav-dropdown"
-              >
+                id="basic-nav-dropdown">
+
                 <NavDropdown.Item href="services/play">
                   Play {"&"} Learn
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
+
                 <NavDropdown.Item href="services/activities">
                   Activities
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
+                
                 <NavDropdown.Item href="services/nutrition">
                   Nutrition
                 </NavDropdown.Item>
               </NavDropdown>
               {/* Dropdown Ends */}
-              <Nav.Link className={`${styles.links}`} href="/about">About</Nav.Link>
-              <Nav.Link className={`${styles.links}`} href="/contact">Contact Us</Nav.Link>
+              <LinkContainer to="/about">
+              <Nav.Link className={`${styles.links}`}>About</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/contact">
+              <Nav.Link className={`${styles.links}`} >Contact Us</Nav.Link>
+              </LinkContainer>
             </Nav>
         </Container>
       )}
