@@ -84,11 +84,11 @@ function BasicExample() {
             <Nav className="me-auto">
               <Nav.Link className={`${styles.links}`} href="/">Home</Nav.Link>
               <NavDropdown.Divider className={`${styles.links}`} />
-              <Nav.Link className={`${styles.links}`} href="/services">Services</Nav.Link>
+              <Nav.Link className={`${styles.links}`} href="services">Services</Nav.Link>
               <NavDropdown.Divider className={`${styles.links}`}/>
-              <Nav.Link className={`${styles.links}`} href="/about">About</Nav.Link>
+              <Nav.Link className={`${styles.links}`} href="about">About</Nav.Link>
               <NavDropdown.Divider className={`${styles.links}`} />
-              <Nav.Link className={`${styles.links}`} href="/contact">Contact Us</Nav.Link>
+              <Nav.Link className={`${styles.links}`} href="contact">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
