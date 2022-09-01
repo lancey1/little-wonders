@@ -2,17 +2,10 @@
   margin-bottom: 10rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding: 2rem;
-}
-
-.homeDiv {
-  margin-bottom: 2rem;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  flex-direction: column;
-  position: relative;
+  width: 100%;
 }
 
 .homeHeader {
@@ -30,8 +23,35 @@
   text-align: center;
   margin-bottom: 3.5rem;
 }
+.servicesHeader {
+  margin-bottom: 2rem;
+}
 
+.homeShowcase {
+  display: flex;
+  width: 90%;
+}
 
+.contactContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+
+}
+.locationHeader{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Overlay for Video */
+.homeDiv {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 3rem;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -41,20 +61,83 @@
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
-
-.homeDiv > video {
-  width: 100%;
-  height: auto;
-}
-
 .homeDiv > .overlay {
   display: inline-block;
   width: 100%;
 }
+/* Ends */
+
+/* Overlay for Images */
+.homeImgs {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.homePlay,
+.homeNutrition,
+.homeActivity {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 0 1% 2%;
+}
+
+.textContainer {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: #4267b2;
+  color: white;
+  font-size: 24px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.text:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.homePlay:hover .homeImgs {
+  opacity: 0.5;
+}
+.homePlay:hover .textContainer {
+  opacity: 1;
+}
+
+.homeNutrition:hover .homeImgs {
+  opacity: 0.3;
+}
+.homeNutrition:hover .textContainer {
+  opacity: 1;
+}
+.homeActivity:hover .homeImgs {
+  opacity: 0.3;
+}
+.homeActivity:hover .textContainer {
+  opacity: 1;
+}
+/* Ends */
 
 @media only screen and (max-width: 1069px) {
-  .homeContainer {
+  .mainHomeDiv {
+    padding-top: 0;
+  }
+  .homeShowcase {
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .homeHeader {
@@ -64,14 +147,29 @@
     transform: translate(-50%, -50%);
     font-size: 16px;
   }
-
+  .homeImgs {
+    width: 100%;
+  }
   .homeDiv > video {
     width: 125%;
     height: auto;
   }
-
   .homeDiv > .overlay {
     display: inline-block;
     width: 125%;
+  }
+  .map {
+    width: 100%;
+  }
+  .contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text {
+    background-color: #4267b2;
+    color: white;
+    font-size: 24px;
+    padding: 0.5rem;
+    border-radius: 5px;
   }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Services.module.css";
 import servicespfp from "../images/services.jpg";
-import activityImg from "../images/outdoor.jpg";
+import activityImg from "../images/activity.jpg";
 import nutritionImg from "../images/food.jpg";
 import playImg from "../images/play_display.jpg";
 import ServiceDropDown from "../shared/ServiceDropDown";

@@ -14,7 +14,7 @@ function BasicExample() {
   const isTablet = useMediaQuery({ query: "(max-width: 991px)" });
   const [show, setShow] = useState(false);
   const showDropdown = (e) => {
-    setShow(!show);
+    setShow(true);
   };
   const hideDropdown = (e) => {
     setShow(false);

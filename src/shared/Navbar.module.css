@@ -1,13 +1,17 @@
 .logo {
   width: 15rem;
   padding-bottom: 1rem;
-
+  display: block;
+}
+.logo:hover {
+  cursor: pointer;
 }
 
 .linksContainer {
   font-size: 1.5rem;
 }
 .links {
+  top:0px;
   padding-left: 0.7rem;
   padding-right: 0.7rem;
 }
@@ -17,9 +21,8 @@
     text-align: center;
   }
   .toggle {
-    position: relative;
-    right: 0;
-    top: 0;
+    position: static;
+    left: 50%;
   }
   .linksContainer {
     display: flex;
