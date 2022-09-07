@@ -78,7 +78,6 @@
 .divp1 {
   white-space: pre-line;
   width: 50%;
-  padding-right: 1rem;
   overflow-wrap: break-word;
 }
 .divp1 h4 {
@@ -88,7 +87,6 @@
 .divp2 {
   white-space: pre-line;
   width: 50%;
-  padding-left: 1rem;
   overflow-wrap: break-word;
 }
 .divp2 h4 {
@@ -212,6 +210,8 @@
   .contactContainer {
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem;
+    padding-top: 0;
   }
   .text {
     background-color: #4267b2;
@@ -248,7 +248,6 @@
   .divp1 {
     white-space: pre-line;
     width: 100%;
-    padding-right: 1rem;
     overflow-wrap: break-word;
     text-align: center;
   }
@@ -259,7 +258,6 @@
   .divp2 {
     white-space: pre-line;
     width: 100%;
-    padding-left: 1rem;
     overflow-wrap: break-word;
     text-align: center;
   }

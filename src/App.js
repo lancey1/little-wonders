@@ -8,21 +8,27 @@ import Footer from "./shared/Footer";
 import Services from "./pages/Services";
 import Play from "./pages/Play";
 import Nutrition from "./pages/Nutrition";
+import ScrollToTop from "./shared/ScrollToTop";
+import Activity from "./pages/Activity";
 
 function App() {
   return (
     <main>
+      <ScrollToTop>
       <Navbar />
       <Routes>
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/services/play" element={<Play />} />
+        <Route exact path="/services/activities" element={<Activity />} />
         <Route exact path="/services/nutrition" element={<Nutrition />} />
         <Route exact path="/" element={<Home />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer/>
+      </ScrollToTop>
+
     </main>
   );
 }

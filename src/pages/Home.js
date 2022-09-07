@@ -107,7 +107,7 @@ export default function Home() {
           opening her very own daycare center.
         </p>
       </div>
-      <button>More About Us</button>
+      <button onClick={()=>navigate('about')}>More About Us</button>
       </div>
       <h1 className={`${styles.homeHeading}`}>Our Location</h1>
       <div className={`${styles.homeContactdiv}`} >
