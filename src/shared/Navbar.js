@@ -34,6 +34,7 @@ function BasicExample() {
             <LinkContainer to="/">
               <Nav.Link className={`${styles.links}`}>Home</Nav.Link>
               </LinkContainer>
+              
               {/* Dropdown Begins */}
               <NavDropdown
                 className={`${styles.links} ${styles.dropdown}`}
@@ -44,21 +45,22 @@ function BasicExample() {
                 title="Services"
                 id="basic-nav-dropdown">
 
-                <NavDropdown.Item href="/services/play">
+                <NavDropdown.Item className={`${styles.dropdownItem}`} href="/services/play">
                   Play {"&"} Learn
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
 
-                <NavDropdown.Item href="/services/activities">
+                <NavDropdown.Item className={`${styles.dropdownItem}`} href="/services/activities">
                   Activities
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 
-                <NavDropdown.Item href="/services/nutrition">
+                <NavDropdown.Item  className={`${styles.dropdownItem}`} href="/services/nutrition">
                   Nutrition
                 </NavDropdown.Item>
               </NavDropdown>
               {/* Dropdown Ends */}
+
               <LinkContainer to="/about">
               <Nav.Link className={`${styles.links}`}>About</Nav.Link>
               </LinkContainer>
