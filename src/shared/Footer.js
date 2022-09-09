@@ -49,7 +49,7 @@ export default function Footer() {
         </p>
         <p>
           <a
-            href="https://www.facebook.com/LittleWondersHome/"
+            href="https://www.facebook.com/LittleWondersbradford/"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -58,7 +58,7 @@ export default function Footer() {
         </p>
         <p>
           <a
-            href="https://www.instagram.com/rohitajaysharma84/"
+            href="https://www.instagram.com/kidsluvlearning/"
             target={"_blank"}
             rel="noreferrer"
           >

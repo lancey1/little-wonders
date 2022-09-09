@@ -1,12 +1,12 @@
-.activityDiv {
+.playDiv {
   margin-bottom: 7rem;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.activityImg {
+.playImg {
   border-radius: 5px;
+
   width: 60%;
 }
-

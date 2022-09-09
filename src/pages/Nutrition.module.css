@@ -1,0 +1,16 @@
+.nutritionDiv {
+  margin-bottom: 7rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nutritionImg {
+  width: 60%;
+  border-radius: 5px;
+}
+
+.nutrition{
+  border: 1px black solid;
+  margin-top: 3rem;
+}

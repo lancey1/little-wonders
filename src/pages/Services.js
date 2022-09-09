@@ -107,7 +107,7 @@ export default function Services() {
             onMouseEnter={rightHoverHandler}
           ></img>
           <h3>Nutrition</h3>
-          {showRight && <ServiceDropDown p={nutrition} url={''}></ServiceDropDown>}
+          {showRight && <ServiceDropDown p={nutrition} url={'nutrition'}></ServiceDropDown>}
         </div>
       </div>
     </div>
