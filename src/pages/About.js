@@ -26,6 +26,7 @@ export default function About() {
         <img className={`${styles.pfp}`} src={pfp} alt="Ms. Rohit, Operator of Little Wonders Daycare in Bradford" />
         <div className={`${styles.divp2}`}>
         <h2>About Ms Rohit</h2>
+        {"\n"}
           Ms. Rohit is a wife and mother of two, aged 12 and 15 years old.
           {"\n"}
           {"\n"} She is proficient in multiple languages: English, Punjabi and

@@ -72,7 +72,7 @@ export default function Services() {
         <p>
           <i>
             "Unlike other home daycares, we follow play-based learning, emergent
-            curriculum that leads to Ready for Kindergarten approach using
+            curriculum that leads to "Ready for Kindergarten" approach using
             worksheets, sensory visual learning, introduction to alphabets,
             practice writing names, numbers and shapes."
           </i>

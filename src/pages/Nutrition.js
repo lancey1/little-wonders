@@ -28,7 +28,7 @@ export default function Nutrition() {
             {isDesktop && <i class="fa-solid fa-arrow-right"></i>}
             {isTablet && <i class="fa-solid fa-arrow-down"></i>   }       </div>
           <div onClick={sampleClickHandler}>
-            Sample Day Plan 
+            Sample Meal Plan 
             {isDesktop && <i class="fa-solid fa-arrow-right"></i>}
             {isTablet && <i class="fa-solid fa-arrow-down"></i>   }       </div>
         </div>
