@@ -8,8 +8,9 @@ export default function About() {
       <h1 className={`${styles.aboutHeader}`}>About Us</h1>
       <div className={`${styles.aboutContainer}`}>
         <img className={`${styles.house}`} src={house} alt="Little Wonders Bradford Daycare Area" />
-        <h3>About Little Wonders</h3>
-        <p className={`${styles.divp1}`}>
+        <div className={`${styles.divp1}`}>
+          <h2>About Little Wonders</h2>
+          {"\n"}
           Little Wonders is a home daycare located in Bradford Ontario. Major
           intersection of Barrie St. and Holland St West.
           {"\n"}
@@ -21,9 +22,10 @@ export default function About() {
           Operated by Ms. Rohit, an experienced Registered Early Childhood
           Educator with more than 8 years of experience.{"\n"}
           {"\n"} We are currently accepting children ages 30 months and above.
-        </p>
+        </div>
         <img className={`${styles.pfp}`} src={pfp} alt="Ms. Rohit, Operator of Little Wonders Daycare in Bradford" />
-        <p className={`${styles.divp2}`}>
+        <div className={`${styles.divp2}`}>
+        <h2>About Ms Rohit</h2>
           Ms. Rohit is a wife and mother of two, aged 12 and 15 years old.
           {"\n"}
           {"\n"} She is proficient in multiple languages: English, Punjabi and
@@ -41,7 +43,7 @@ export default function About() {
           {"\n"}
           {"\n"} Her passion and expertise in children motivated her into
           opening her very own daycare center.
-        </p>
+        </div>
       </div>
     </div>
   );
