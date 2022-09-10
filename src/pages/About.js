@@ -8,10 +8,8 @@ export default function About() {
       <h1 className={`${styles.aboutHeader}`}>About Us</h1>
       <div className={`${styles.aboutContainer}`}>
         <img className={`${styles.house}`} src={house} alt="Little Wonders Bradford Daycare Area" />
+        <h3>About Little Wonders</h3>
         <p className={`${styles.divp1}`}>
-          <b>About Little Wonders</b>
-          {"\n"}
-          {"\n"}
           Little Wonders is a home daycare located in Bradford Ontario. Major
           intersection of Barrie St. and Holland St West.
           {"\n"}

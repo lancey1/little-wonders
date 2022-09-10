@@ -8,6 +8,7 @@
 
 .nutritionImg {
   width: 75%;
+  max-width: 1400px;
   border-radius: 5px;
 }
 
@@ -81,7 +82,7 @@
 .sampleHeader{
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   background-color: #4267b2;
   padding: 1.3rem;
@@ -108,9 +109,9 @@
   width: 40%;
 }
 .nutritiontext > div > h3 {
-  text-align: center;
   margin-bottom: 3rem;
 }
+
 
 @media only screen and (max-width: 1069px) {
   .nutritionDiv {
@@ -139,6 +140,7 @@
     margin-left: 0;
     padding: 0;
     width: 100%;
+    font-size: 18px;
   }
   
   .nutritionSelection {
@@ -149,6 +151,7 @@
     gap: 1rem;
     text-align: center;
     margin-bottom: 3rem;
+    font-size: 24px;
   }
   
   .nutritionHeader{

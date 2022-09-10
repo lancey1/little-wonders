@@ -225,6 +225,11 @@
   .location {
     text-align: center;
   }
+
+  .location > p {
+    font-size: 18px;
+
+  }
   .homeAbout {
     display: flex;
     flex-direction: column;
@@ -248,6 +253,7 @@
   }
 
   .divp1 {
+    font-size: 18px;
     white-space: pre-line;
     width: 100%;
     overflow-wrap: break-word;
@@ -258,6 +264,7 @@
     margin-bottom: 1rem;
   }
   .divp2 {
+    font-size: 18px;
     white-space: pre-line;
     width: 100%;
     overflow-wrap: break-word;

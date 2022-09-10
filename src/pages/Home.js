@@ -75,7 +75,7 @@ export default function Home() {
       <div className={`${styles.homeAboutContainer}`}>
       <div className={`${styles.homeAbout}`}>
         <p className={`${styles.divp1}`}>
-          <h4>About Little Wonders</h4>
+          <h3>About Little Wonders</h3>
           Little Wonders is a home daycare located in Bradford Ontario.           
           {"\n"}
           {"\n"}
@@ -92,7 +92,7 @@ export default function Home() {
           {"\n"} 
         </p>
         <p className={`${styles.divp2}`}>
-        <h4>About Ms. Rohit</h4>
+        <h3>About Ms. Rohit</h3>
           Ms. Rohit is a wife and mother of two, aged 12 and 15 years old.
           {"\n"} 
           {"\n"}
@@ -113,7 +113,7 @@ export default function Home() {
       <div className={`${styles.homeContactdiv}`} >
       <div className={`${styles.contactContainer}`}>
       <div className={`${styles.location}`}>
-       {isDesktop && <h4 className={`${styles.locationHeader}`}>Contact Us</h4>}
+       {isDesktop && <h3 className={`${styles.locationHeader}`}>Contact Us</h3>}
         <p>84 Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
         <p>Steps from Marie of the Incarnation Separate School</p>
         <p>Phone: 647-524-4429</p>

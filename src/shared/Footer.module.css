@@ -1,17 +1,22 @@
 .footer{
+  align-self: center;
   position: absolute;
   bottom: 1;
   width: 100%;
+  max-width: 1500px;
   display: flex;
   gap: 3.5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
+
 .about{
-  padding-left: 11%;
-  width: 30%;
+  /* padding-left: 10%; */
+  width: 40%;
 }
 .contact{
-  width: 25%;
+  width: 40%;
 }
 .links{
   width: 20%;
@@ -20,6 +25,8 @@
 
 @media only screen and (max-width: 1069px) {
   .footer {
+    padding-left: 0;
+    padding-right: 0;
     display: grid;
     padding-left: 1rem;
     grid-template-columns: 1fr 1fr;
