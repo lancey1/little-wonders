@@ -1,10 +1,13 @@
 import { useState } from "react";
 import eating from "../images/nutritionpage.jpg";
 import styles from "./Nutrition.module.css";
+import { useMediaQuery } from "react-responsive";
 
 export default function Nutrition() {
   const [showNutrition, setNutrition] = useState(true);
   const [showSamplePlan, setSamplePlan] = useState(false);
+  const isDesktop = useMediaQuery({ query: "(min-width: 1070px)" });
+  const isTablet = useMediaQuery({ query: "(max-width: 1069px)" });
 
   const nutritionClickHandler = () => {
     setNutrition(true);
@@ -21,14 +24,17 @@ export default function Nutrition() {
       <div className={`${styles.nutrition}`}>
         <div className={`${styles.nutritionSelection}`}>
           <div onClick={nutritionClickHandler}>
-            Nutrition <i class="fa-solid fa-arrow-right"></i>
-          </div>
+            Nutrition 
+            {isDesktop && <i class="fa-solid fa-arrow-right"></i>}
+            {isTablet && <i class="fa-solid fa-arrow-down"></i>   }       </div>
           <div onClick={sampleClickHandler}>
-            Sample Plan <i class="fa-solid fa-arrow-right"></i>
-          </div>
+            Sample Day Plan 
+            {isDesktop && <i class="fa-solid fa-arrow-right"></i>}
+            {isTablet && <i class="fa-solid fa-arrow-down"></i>   }       </div>
         </div>
         <div className={`${styles.nutritiontext}`}>
-          {showNutrition && (
+          {showNutrition && (<div>
+            <h3>Our Nutrition Statement</h3>
             <p>
               Providing our kids with healthy and delicious meals is very
               important to us! Our balanced meals provide energy and nutrition
@@ -45,6 +51,7 @@ export default function Nutrition() {
               ensure that each days menu is different from the last. We also
               accommodate allergy and other dietary restrictions.
             </p>
+            </div>
           )}
           {showSamplePlan && (
             <div className={`${styles.samplePlan}`}>
@@ -53,7 +60,7 @@ export default function Nutrition() {
                 <div className={`${styles.sampleBody}`}>
                   <div>Toast with Jam</div>
                   <div className={`${styles.lineBreak}`}></div>
-                  <div>Apple Slices</div>
+                  <div>Fruit Slices</div>
                   <div className={`${styles.lineBreak}`}></div>
                   <div>Milk</div>
                 </div>
@@ -61,7 +68,7 @@ export default function Nutrition() {
               <div>
                 <div className={`${styles.sampleHeader}`}>Lunch</div>
                 <div className={`${styles.sampleBody}`}>
-                  <div>Vegetarian Spaghetti</div>
+                  <div>Beef Spaghetti</div>
                   <div className={`${styles.lineBreak}`}></div>
                   <div>Steamed Veggies</div>
                   <div className={`${styles.lineBreak}`}></div>
@@ -71,7 +78,7 @@ export default function Nutrition() {
               <div>
                 <div className={`${styles.sampleHeader}`}>Afternoon Snack</div>
                 <div className={`${styles.sampleBody}`}>
-                  <div>Fresh Veggie Sticks</div>
+                  <div>Veggie Sticks</div>
                   <div className={`${styles.lineBreak}`}></div>
                   <div>Hummus Dip</div>
                   <div className={`${styles.lineBreak}`}></div>
