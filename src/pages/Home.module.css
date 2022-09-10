@@ -275,3 +275,20 @@
     margin-bottom: 1rem;
   }
 }
+
+
+@media only screen and (min-width: 768px) {
+.homeDiv > video {
+  max-width: 1300px;
+  width: 190%;
+  height: auto;
+}
+.homeDiv > .overlay {
+  max-width: 1300px;
+  display: inline-block;
+  width: 190%;
+}
+.homeHeader{
+  font-size: 30px;
+}
+}
