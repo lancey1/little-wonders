@@ -6,11 +6,101 @@
 }
 
 .nutritionImg {
-  width: 60%;
+  width: 75%;
   border-radius: 5px;
 }
 
-.nutrition{
-  border: 1px black solid;
+.nutrition {
+  display: flex;
+  width: 73%;
   margin-top: 3rem;
+  padding: 1.5rem;
+  height: 30rem;
+}
+
+.nutritiontext {
+  margin-left: 5rem;
+  padding: 0rem 1rem 1rem 1rem;
+  white-space: pre-line;
+  width: 90%;
+}
+
+.nutritionSelection {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.nutritionHeader{
+  margin-top: 3rem;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.nutritionSelection > div {
+  padding: 0.5rem;
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #4267b2;
+  color: white;
+}
+
+.nutritionSelection > div:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #4267b2;
+  border: 1px solid #4267b2;
+}
+
+.samplePlan{
+  display: flex;
+  gap: 3rem;
+}
+
+.samplePlan > div{
+  text-align: center;
+  border:1px grey solid;
+  border-radius: 5px;
+  box-shadow: grey 3px 4px;
+}
+
+.samplePlan > div:hover{
+  box-shadow: none;
+}
+
+
+.sampleHeader{
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  font-size: 24px;
+  color: white;
+  background-color: #4267b2;
+  padding: 1.3rem;
+}
+
+.sampleBody{
+  padding: 1.3rem;
+}
+
+.sampleBody > div{
+  padding: 1rem;
+}
+
+.sampleFooter{
+  padding: 1.3rem;
+}
+
+.lineBreak{
+  position: relative;
+  left: 30%;
+  border: .5px grey solid;
+  padding: 0 !important; 
+  height: 0px;
+  width: 40%;
 }
