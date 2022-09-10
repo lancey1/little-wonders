@@ -1,8 +1,8 @@
 .contactDiv {
   margin-bottom: 10rem;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .contactContainer {
@@ -18,11 +18,24 @@
   margin-bottom: 3.5rem;
 }
 
+.formHeader{
+  margin-bottom: 1.5rem;
+}
+
+.formBody{
+  margin-bottom: 4rem;
+}
+
+.formBody > a{
+color: #4267b2;
+text-decoration: underline;
+}
+
 @media only screen and (max-width: 1069px) {
   .contactDiv {
     padding-left: 8%;
     padding-right: 8%;
-    width: 500px;
+    width: 100%;
     margin-bottom: 2rem;
   }
   .contactContainer {

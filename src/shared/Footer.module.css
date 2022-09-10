@@ -12,7 +12,6 @@
 
 
 .about{
-  /* padding-left: 10%; */
   width: 40%;
 }
 .contact{
@@ -29,7 +28,6 @@
     padding-right: 0;
     margin-bottom: 3rem;
     display: grid;
-    padding-left: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 170px;
     position: relative;
