@@ -73,7 +73,7 @@
   text-align:center;
   border:1px grey solid;
   border-radius: 5px;
-  box-shadow: grey 4px 5px;
+  box-shadow: #161616 4px 5px;
 }
 
 .samplePlan > div:hover{

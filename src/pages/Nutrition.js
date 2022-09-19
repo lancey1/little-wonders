@@ -47,7 +47,7 @@ export default function Nutrition() {
               each day.
               {"\n"}
               {"\n"} Meals include fresh vegetables and fruit, whole grains,
-              lean meats and low sugar recipes, and rotating meal schedules
+              and low sugar recipes, and rotating meal schedules
               ensure that each days menu is different from the last. We also
               accommodate allergy and other dietary restrictions.
             </p>
@@ -68,7 +68,7 @@ export default function Nutrition() {
               <div>
                 <div className={`${styles.sampleHeader}`}>Lunch</div>
                 <div className={`${styles.sampleBody}`}>
-                  <div>Beef Spaghetti</div>
+                  <div>Spaghetti</div>
                   <div className={`${styles.lineBreak}`}></div>
                   <div>Steamed Veggies</div>
                   <div className={`${styles.lineBreak}`}></div>
