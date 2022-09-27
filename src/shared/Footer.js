@@ -16,7 +16,7 @@ export default function Footer() {
           experienced Registered Early Childhood Educator with more than 8 years
           of experience.
         </p>
-        <p>For children ages 30 months and above.</p>
+        <p>Currently accepting children of all ages.</p>
       </div>
       <div className={`${styles.contact}`}>
         <h3>Contact Us</h3>

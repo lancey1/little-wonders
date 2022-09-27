@@ -28,7 +28,7 @@ export default function Home() {
           Your Child's Learning Journey Begins Here.
           {"\n"}
           {"\n"}
-          Accepting Full-Time Children Aged 30 Months And Up.
+          Currently Accepting Children Of All Ages.
         </h1>
       </div>
       <h1 className={`${styles.homeHeading}`}>Our Services</h1>
@@ -76,10 +76,10 @@ export default function Home() {
       <div className={`${styles.homeAbout}`}>
         <p className={`${styles.divp1}`}>
           <h4>About Little Wonders</h4>
-          Little Wonders is a home daycare located in Bradford Ontario.           
+          Little Wonders is a home daycare located in Bradford, Ontario.           
           {"\n"}
           {"\n"}
-          We are currently accepting children ages 30 months and above.
+          Currently accepting children of all ages.
           {"\n"}
           {"\n"}
           Operated by Ms. Rohit, an experienced Registered Early Childhood
