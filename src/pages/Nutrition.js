@@ -68,7 +68,7 @@ export default function Nutrition() {
               <div>
                 <div className={`${styles.sampleHeader}`}>Lunch</div>
                 <div className={`${styles.sampleBody}`}>
-                  <div>Beef Spaghetti</div>
+                  <div>Spaghetti</div>
                   <div className={`${styles.lineBreak}`}></div>
                   <div>Steamed Veggies</div>
                   <div className={`${styles.lineBreak}`}></div>

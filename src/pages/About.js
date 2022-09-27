@@ -21,7 +21,7 @@ export default function About() {
           {"\n"}
           Operated by Ms. Rohit, an experienced Registered Early Childhood
           Educator with more than 8 years of experience.{"\n"}
-          {"\n"} We are currently accepting children ages 30 months and above.
+          {"\n"} We are currently enrollment of children.
         </div>
         <img className={`${styles.pfp}`} src={pfp} alt="Ms. Rohit, Operator of Little Wonders Daycare in Bradford" />
         <div className={`${styles.divp2}`}>
