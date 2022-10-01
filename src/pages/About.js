@@ -20,8 +20,7 @@ export default function About() {
           {"\n"}
           {"\n"}
           Operated by Ms. Rohit, an experienced Registered Early Childhood
-          Educator with more than 8 years of experience.{"\n"}
-          {"\n"} We are currently enrollment of children.
+          Educator with more than 8 years of experience.
         </div>
         <img className={`${styles.pfp}`} src={pfp} alt="Ms. Rohit, Operator of Little Wonders Daycare in Bradford" />
         <div className={`${styles.divp2}`}>
