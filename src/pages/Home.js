@@ -74,7 +74,7 @@ export default function Home() {
       <h1 className={`${styles.homeHeading}`}>About Us</h1>
       <div className={`${styles.homeAboutContainer}`}>
       <div className={`${styles.homeAbout}`}>
-        <p className={`${styles.divp1}`}>
+        <div className={`${styles.divp1}`}>
           <h4>About Little Wonders</h4>
           Little Wonders is a home daycare located in Bradford, Ontario.           
           {"\n"}
@@ -90,8 +90,8 @@ export default function Home() {
           Vaughan since 2013.
           {"\n"} 
           {"\n"} 
-        </p>
-        <p className={`${styles.divp2}`}>
+        </div>
+        <div className={`${styles.divp2}`}>
         <h4>About Ms. Rohit</h4>
           Ms. Rohit is a wife and mother of two, aged 12 and 15 years old.
           {"\n"} 
@@ -105,9 +105,11 @@ export default function Home() {
           {"\n"}
           {"\n"} Her passion and expertise in children motivated her into
           opening her very own daycare center.
-        </p>
+        </div>
+
       </div>
       <button onClick={()=>navigate('about')}>More About Us</button>
+
       </div>
       <h1 className={`${styles.homeHeading}`}>Our Location</h1>
       <div className={`${styles.homeContactdiv}`} >

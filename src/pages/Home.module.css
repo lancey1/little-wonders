@@ -45,14 +45,14 @@
 }
 
 .homeAboutContainer {
+  display: flex;
+  flex-direction: column;
   border: 2px black solid;
   border-radius: 5px;
   box-shadow: 5px 8px grey;
   margin-bottom: 3rem;
 }
 .homeAboutContainer button {
-  position: relative;
-  left: 45%;
   margin-bottom: 3rem;
   align-self: center;
   width: 10rem;
@@ -249,7 +249,6 @@
 
   .homeAboutContainer button {
     position: relative;
-    left: 32.5%;
     margin-bottom: 0rem;
   }
 
