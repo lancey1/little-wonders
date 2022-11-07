@@ -39,10 +39,10 @@ export default function Footer() {
       <div className={`${styles.links}`}>
         <h3>Quick Links</h3>
         <p>
-          <NavLink to="services">Services</NavLink>
+          <NavLink to="services">Our Services</NavLink>
         </p>
         <p>
-          <NavLink to="about">About</NavLink>
+          <NavLink to="about">About Us</NavLink>
         </p>
         <p>
           <NavLink to="contact">Contact Us</NavLink>
