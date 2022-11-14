@@ -20,7 +20,7 @@ export default function Footer() {
       </div>
       <div className={`${styles.contact}`}>
         <h3>Contact Us</h3>
-        <p>84 Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
+        <p>Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
         <p>Phone: 647-524-4429</p>
         <p>
           {isDesktop && (

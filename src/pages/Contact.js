@@ -17,7 +17,7 @@ export default function Contact() {
     <div className={`${styles.contactContainer}`}>
       <div className={`${styles.location}`}>
         <h3 className={`${styles.locationHeader}`}>Our Location</h3>
-        <p>84 Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
+        <p>Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
         <p>Steps from Marie of the Incarnation Separate School</p>
         <p>Phone: 647-524-4429</p>
         <p>Email: rohitajaysharma84@gmail.com</p>
