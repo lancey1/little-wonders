@@ -46,7 +46,7 @@ export default function Home() {
           Currently Accepting Children Of All Ages.
           {"\n"}
           {"\n"}
-          Fees starting as low as $23 per day
+          Fees starting as low as $23 per day.
         </h1>
       </div>
       <h1 className={`${styles.homeHeading}`}>Our Services</h1>
