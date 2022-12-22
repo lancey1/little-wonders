@@ -12,12 +12,14 @@ export default function Footer() {
       <div className={`${styles.about}`}>
         <h3>About Us</h3>
         <p>
-          Little Wonders is a daycare located in Bradford ON. Operated by an
+          Little Wonders is a licensed daycare located in Bradford ON. Operated by an
           experienced Registered Early Childhood Educator with more than 8 years
           of experience.
         </p>
         <p>Currently accepting children of all ages.</p>
+        <p>Daycare fees starting as low as $23 per day.</p>
       </div>
+      
       <div className={`${styles.contact}`}>
         <h3>Contact Us</h3>
         <p>Porter St. Bradford, ON (Barrie St. and Holland St West)</p>

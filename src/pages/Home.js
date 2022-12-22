@@ -44,6 +44,9 @@ export default function Home() {
           {"\n"}
           {"\n"}
           Currently Accepting Children Of All Ages.
+          {"\n"}
+          {"\n"}
+          Fees starting as low as $23 per day
         </h1>
       </div>
       <h1 className={`${styles.homeHeading}`}>Our Services</h1>
@@ -135,10 +138,13 @@ export default function Home() {
         <div className={`${styles.homeAbout}`}>
           <div className={`${styles.divp1}`}>
             <h4>About Little Wonders</h4>
-            Little Wonders is a home daycare located in Bradford, Ontario.
+            Little Wonders is a licensed home daycare located in Bradford, Ontario.
             {"\n"}
             {"\n"}
             Currently accepting children of all ages.
+            {"\n"}
+            {"\n"}
+            Daycare fees starting as low as $23 per day.
             {"\n"}
             {"\n"}
             Operated by Ms. Rohit, an experienced Registered Early Childhood

@@ -11,7 +11,7 @@ export default function About() {
         <div className={`${styles.divp1}`}>
           <h2>About Little Wonders</h2>
           {"\n"}
-          Little Wonders is a home daycare located in Bradford Ontario. Major
+          Little Wonders is a licensed home daycare located in Bradford Ontario. Major
           intersection of Barrie St. and Holland St West.
           {"\n"}
           {"\n"}
