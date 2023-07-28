@@ -23,7 +23,7 @@ export default function Footer() {
       <div className={`${styles.contact}`}>
         <h3>Contact Us</h3>
         <p>Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
-        <p>Phone: 647-524-4429</p>
+        {/* <p>Phone: 647-524-4429</p> */}
         <p>
           {isDesktop && (
             <a href="mailto:rohitajaysharma84@gmail.com">

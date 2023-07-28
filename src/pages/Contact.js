@@ -19,7 +19,7 @@ export default function Contact() {
         <h3 className={`${styles.locationHeader}`}>Our Location</h3>
         <p>Porter St. Bradford, ON (Barrie St. and Holland St West)</p>
         <p>Steps from Marie of the Incarnation Catholic School</p>
-        <p>Phone: 647-524-4429</p>
+        {/* <p>Phone: 647-524-4429</p> */}
         <p>Email: rohitajaysharma84@gmail.com</p>
         <p>Hours: Monday to Friday - 7:30 AM to 5:30 PM</p>
       </div>
