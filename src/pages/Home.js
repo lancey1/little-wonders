@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import { useMediaQuery } from "react-responsive";
-import videobg from "../Videos/Education720p.mp4";
+// import videobg from "../Videos/Education720p.mp4";
 import videoMobile from "../Videos/Educationlow.mp4";
 import play from "../images/webp/play2.webp";
 import food from "../images/webp/food2.webp";
