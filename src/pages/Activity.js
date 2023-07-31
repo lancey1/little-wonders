@@ -1,5 +1,5 @@
 import { useState } from "react";
-import activity from "../images/activitypage.jpg";
+import activity from "../images/webp/activitypage.webp";
 import styles from "./Activity.module.css";
 import { useMediaQuery } from "react-responsive";
 

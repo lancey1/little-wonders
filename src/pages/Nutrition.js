@@ -1,5 +1,5 @@
 import { useState } from "react";
-import eating from "../images/nutritionpage.jpg";
+import eating from "../images/webp/nutritionpage.webp";
 import styles from "./Nutrition.module.css";
 import { useMediaQuery } from "react-responsive";
 

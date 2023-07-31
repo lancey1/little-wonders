@@ -2,12 +2,12 @@ import styles from "./Home.module.css";
 import { useMediaQuery } from "react-responsive";
 import videobg from "../Videos/Education720p.mp4";
 import videoMobile from "../Videos/Educationlow.mp4";
-import play from "../images/play2.jpg";
-import food from "../images/food2.jpg";
-import activity from "../images/activity2.jpg";
-import playMobile from "../images/play-mobile.jpg";
-import foodMobile from "../images/food-mobile.jpg";
-import activityMobile from "../images/activity-mobile.jpg";
+import play from "../images/webp/play2.webp";
+import food from "../images/webp/food2.webp";
+import activity from "../images/webp/activity2.webp";
+import playMobile from "../images/webp/play-mobile.webp";
+import foodMobile from "../images/webp/food-mobile.webp";
+import activityMobile from "../images/webp/activity-mobile.webp";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
         {isDesktop && (
           <video
             className={`${styles.video}`}
-            src={videobg}
+            src={videoMobile}
             autoPlay
             loop
             muted

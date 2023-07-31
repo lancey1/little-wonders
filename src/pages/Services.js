@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styles from "./Services.module.css";
-import servicespfp from "../images/services.jpg";
-import activityImg from "../images/activity.jpg";
-import nutritionImg from "../images/food.jpg";
-import playImg from "../images/play_display.jpg";
+import servicespfp from "../images/webp/services.webp";
+import activityImg from "../images/webp/activity.webp";
+import nutritionImg from "../images/webp/food.webp";
+import playImg from "../images/webp/play_display.webp";
 import ServiceDropDown from "../shared/ServiceDropDown";
 
 export default function Services() {

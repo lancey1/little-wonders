@@ -1,5 +1,5 @@
 import { useState } from "react";
-import play from "../images/playpage.jpg";
+import play from "../images/webp/playpage.webp";
 import styles from "./Play.module.css";
 import { useMediaQuery } from "react-responsive";
 
