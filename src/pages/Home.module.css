@@ -105,6 +105,10 @@
   flex-direction: column;
   position: relative;
   margin-bottom: 3rem;
+  -webkit-user-select: none; /* Safari and older versions of Chrome */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; 
 }
 .overlay {
   position: absolute;
@@ -147,6 +151,10 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  -webkit-user-select: none; /* Safari and older versions of Chrome */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; 
 }
 .text {
   background-color: #4267b2;
