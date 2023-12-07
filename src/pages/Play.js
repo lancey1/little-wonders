@@ -55,7 +55,7 @@ export default function Play() {
               <div>
                 <div className={`${styles.sampleHeader}`}>Day 1</div>
                 <div className={`${styles.sampleBody}`}>
-                  <div>07:30 AM - Drop Off</div>
+                  <div>08:30 AM - Drop Off</div>
                   <div className={`${styles.lineBreak}`}></div>
                   <div>08:30 AM - Breakfast</div>
                   <div className={`${styles.lineBreak}`}></div>
@@ -81,7 +81,7 @@ export default function Play() {
               <div>
                 <div className={`${styles.sampleHeader}`}>Day 2</div>
                 <div className={`${styles.sampleBody}`}>
-                  <div>07:30 AM - Drop Off</div>
+                  <div>08:30 AM - Drop Off</div>
                   <div className={`${styles.lineBreak}`}></div>
                   <div>08:30 AM - Breakfast</div>
                   <div className={`${styles.lineBreak}`}></div>

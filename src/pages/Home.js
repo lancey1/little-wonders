@@ -184,7 +184,7 @@ export default function Home() {
             <p>Steps from Marie of the Incarnation Catholic School</p>
             {/* <p>Phone: 647-524-4429</p> */}
             <p>Email: rohitajaysharma84@gmail.com</p>
-            <p>Hours: Monday to Friday - 7:30 AM to 5:30 PM</p>
+            <p>Hours: Monday to Friday - 8:30 AM to 5:30 PM</p>
           </div>
           <div className={`${styles.map}`}>
             {isDesktop && (

@@ -36,7 +36,7 @@ export default function Footer() {
             </a>
           )}
         </p>
-        <p>Hours: Monday to Friday 7:30 AM to 5:30 PM</p>
+        <p>Hours: Monday to Friday 8:30 AM to 5:30 PM</p>
       </div>
       <div className={`${styles.links}`}>
         <h3>Quick Links</h3>
