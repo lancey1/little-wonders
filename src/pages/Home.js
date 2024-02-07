@@ -43,9 +43,6 @@ export default function Home() {
           Your Child's Learning Journey Begins Here.
           {"\n"}
           {"\n"}
-          
-          {"\n"}
-          {"\n"}
           Fees Starting As Low As $23 Per Day.
         </h1>
       </div>
