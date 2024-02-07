@@ -43,7 +43,7 @@ export default function Home() {
           Your Child's Learning Journey Begins Here.
           {"\n"}
           {"\n"}
-          Currently Accepting Children Of All Ages.
+          
           {"\n"}
           {"\n"}
           Fees Starting As Low As $23 Per Day.
