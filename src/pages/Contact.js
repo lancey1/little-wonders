@@ -10,7 +10,7 @@ export default function Contact() {
   return(
     <div className={`${styles.contactDiv}`} >
     <h1>Contact Us</h1>
-    <h3 className={`${styles.contactHeader}`}>Get in touch with us, we'd love to hear from you. Have a general question?  We are only an email!</h3>
+    <h3 className={`${styles.contactHeader}`}>Get in touch with us, we'd love to hear from you. Have a general question?  We are only an email away!</h3>
     <h4 className={`${styles.formHeader}`}> Interested in enrolling your child?</h4>
     <h4 className={`${styles.formBody}`}> Please fill out this <a target={"_blank"}
             rel="noreferrer" href='https://docs.google.com/document/d/1Lex8r-8kvYr74X_rcQlUbzwXkNMji_Vq/' >Form</a></h4>
