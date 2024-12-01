@@ -2,7 +2,7 @@ import { useState } from "react";
 import eating from "../images/webp/nutritionpage.webp";
 import styles from "./Nutrition.module.css";
 import { useMediaQuery } from "react-responsive";
-
+{/* 
 export default function Nutrition() {
   const [showNutrition, setNutrition] = useState(true);
   const [showSamplePlan, setSamplePlan] = useState(false);
@@ -92,3 +92,4 @@ export default function Nutrition() {
     </div>
   );
 }
+*/}
