@@ -5,7 +5,7 @@ import activityImg from "../images/webp/activity.webp";
 import nutritionImg from "../images/webp/food.webp";
 import playImg from "../images/webp/play_display.webp";
 import ServiceDropDown from "../shared/ServiceDropDown";
-
+{/* 
 export default function Services() {
   const [showRight, setShowRight] = useState(false);
   const [showMiddle, setShowMiddle] = useState(false);
@@ -113,3 +113,4 @@ export default function Services() {
     </div>
   );
 }
+*/}
