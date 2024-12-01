@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
-
+{/*
 function BasicExample() {
   let navigate = useNavigate();
   const isDesktop = useMediaQuery({ query: "(min-width: 992px)" });
@@ -96,4 +96,5 @@ function BasicExample() {
     </Navbar>
   );
 }
+ */}
 export default BasicExample;
