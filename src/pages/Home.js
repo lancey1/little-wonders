@@ -46,90 +46,90 @@ export default function Home() {
           // Fees Starting As Low As $23 Per Day.
         </h1>
       </div>
-      <h1 className={`${styles.homeHeading}`}>Our Services</h1>
-      <div className={`${styles.homeShowcase}`}>
-        <div className={`${styles.homePlay}`}>
-          <div className={`${styles.overlay}`}></div>
-          {isDesktop && (
-            <img
-              className={`${styles.homeImgs} ${styles.aboutImg}`}
-              src={play}
-              alt=""
-            ></img>
-          )}
-          {isTablet && (
-            <img
-              className={`${styles.homeImgs} ${styles.aboutImg}`}
-              src={playMobile}
-              alt=""
-            ></img>
-          )}
+      // <h1 className={`${styles.homeHeading}`}>Our Services</h1>
+      // <div className={`${styles.homeShowcase}`}>
+      //   <div className={`${styles.homePlay}`}>
+      //     <div className={`${styles.overlay}`}></div>
+      //     {isDesktop && (
+      //       <img
+      //         className={`${styles.homeImgs} ${styles.aboutImg}`}
+      //         src={play}
+      //         alt=""
+      //       ></img>
+      //     )}
+      //     {isTablet && (
+      //       <img
+      //         className={`${styles.homeImgs} ${styles.aboutImg}`}
+      //         src={playMobile}
+      //         alt=""
+      //       ></img>
+      //     )}
 
-          <div className={`${styles.textContainer}`}>
-            <p
-              onClick={() => navigate("services/play")}
-              className={`${styles.text}`}
-            >
-              Play {"&"} Learn
-            </p>
-            <p>Click to learn more</p>
-          </div>
-        </div>
+      //     <div className={`${styles.textContainer}`}>
+      //       <p
+      //         onClick={() => navigate("services/play")}
+      //         className={`${styles.text}`}
+      //       >
+      //         Play {"&"} Learn
+      //       </p>
+      //       <p>Click to learn more</p>
+      //     </div>
+      //   </div>
 
-        <div className={`${styles.homeActivity}`}>
-          <div className={`${styles.overlay}`}></div>
-          {isDesktop && (
-            <img
-              className={`${styles.homeImgs} ${styles.serviceImg}`}
-              src={activity}
-              alt=""
-            ></img>
-          )}
-          {isTablet && (
-            <img
-              className={`${styles.homeImgs} ${styles.aboutImg}`}
-              src={activityMobile}
-              alt=""
-            ></img>
-          )}
-          <div className={`${styles.textContainer}`}>
-            <p
-              onClick={() => navigate("services/activities")}
-              className={`${styles.text}`}
-            >
-              Activities
-            </p>
-            <p>Click to learn more</p>
-          </div>
-        </div>
+      //   <div className={`${styles.homeActivity}`}>
+      //     <div className={`${styles.overlay}`}></div>
+      //     {isDesktop && (
+      //       <img
+      //         className={`${styles.homeImgs} ${styles.serviceImg}`}
+      //         src={activity}
+      //         alt=""
+      //       ></img>
+      //     )}
+      //     {isTablet && (
+      //       <img
+      //         className={`${styles.homeImgs} ${styles.aboutImg}`}
+      //         src={activityMobile}
+      //         alt=""
+      //       ></img>
+      //     )}
+      //     <div className={`${styles.textContainer}`}>
+      //       <p
+      //         onClick={() => navigate("services/activities")}
+      //         className={`${styles.text}`}
+      //       >
+      //         Activities
+      //       </p>
+      //       <p>Click to learn more</p>
+      //     </div>
+      //   </div>
 
-        <div className={`${styles.homeNutrition}`}>
-          <div className={`${styles.overlay}`}></div>
-          {isDesktop && (
-            <img
-              className={`${styles.homeImgs} ${styles.contactImg}`}
-              src={food}
-              alt=""
-            ></img>
-          )}
-          {isTablet && (
-            <img
-              className={`${styles.homeImgs} ${styles.aboutImg}`}
-              src={foodMobile}
-              alt=""
-            ></img>
-          )}
-          <div className={`${styles.textContainer}`}>
-            <p
-              onClick={() => navigate("services/nutrition")}
-              className={`${styles.text}`}
-            >
-              Healthy {"&"} Delicious Meals
-            </p>
-            <p>Click to learn more</p>
-          </div>
-        </div>
-      </div>
+      //   <div className={`${styles.homeNutrition}`}>
+      //     <div className={`${styles.overlay}`}></div>
+      //     {isDesktop && (
+      //       <img
+      //         className={`${styles.homeImgs} ${styles.contactImg}`}
+      //         src={food}
+      //         alt=""
+      //       ></img>
+      //     )}
+      //     {isTablet && (
+      //       <img
+      //         className={`${styles.homeImgs} ${styles.aboutImg}`}
+      //         src={foodMobile}
+      //         alt=""
+      //       ></img>
+      //     )}
+      //     <div className={`${styles.textContainer}`}>
+      //       <p
+      //         onClick={() => navigate("services/nutrition")}
+      //         className={`${styles.text}`}
+      //       >
+      //         Healthy {"&"} Delicious Meals
+      //       </p>
+      //       <p>Click to learn more</p>
+      //     </div>
+      //   </div>
+      // </div>
       // <h1 className={`${styles.homeHeading}`}>About Us</h1>
       // <div className={`${styles.homeAboutContainer}`}>
       //   <div className={`${styles.homeAbout}`}>
@@ -167,8 +167,8 @@ export default function Home() {
       //       {"\n"} Her passion and expertise in children motivated her into
       //       opening her very own daycare center.
       //     </div>
-        // </div>
-        // <button onClick={() => navigate("about")}>More About Us</button>
+      //   </div>
+      //   <button onClick={() => navigate("about")}>More About Us</button>
       // </div>
       // <h1 className={`${styles.homeHeading}`}>Our Location</h1>
       // <div className={`${styles.homeContactdiv}`}>
@@ -183,39 +183,39 @@ export default function Home() {
       //       <p>Email: rohitajaysharma84@gmail.com</p>
       //       <p>Hours: Monday to Friday - 8:30 AM to 5:30 PM</p>
       //     </div>
-          <div className={`${styles.map}`}>
-            // {isDesktop && (
-            //   <iframe
-            //     title={
-            //       "Little Wonders Location - Porter St, Bradford, ON L3Z 1E8"
-            //     }
-            //     src={
-            //       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11456.87481671335!2d-79.5618788!3d44.1201109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38027c70ffd9cb2b!2sLittle%20Wonders%20Home%20Daycare%20Bradford!5e0!3m2!1sen!2sca!4v1668461887252!5m2!1sen!2sca"
-            //     }
-            //     width="550"
-            //     height="450"
-            //     allowfullscreen=""
-            //     loading="lazy"
-            //     referrerpolicy="no-referrer-when-downgrade"
-            //   ></iframe>
-            // )}
-            // {isTablet && (
-            //   <iframe
-            //     title={
-            //       "Little Wonders Location - Porter St, Bradford, ON L3Z 1E8"
-            //     }
-            //     src={
-            //       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11456.87481671335!2d-79.5618788!3d44.1201109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38027c70ffd9cb2b!2sLittle%20Wonders%20Home%20Daycare%20Bradford!5e0!3m2!1sen!2sca!4v1668461887252!5m2!1sen!2sca"
-            //     }
-            //     width="100%"
-            //     height="430"
-            //     allowfullscreen=""
-            //     loading="lazy"
-            //     referrerpolicy="no-referrer-when-downgrade"
-            //   ></iframe>
-            // )}
-          </div>
-        </div>
+      //     <div className={`${styles.map}`}>
+      //       {isDesktop && (
+      //         <iframe
+      //           title={
+      //             "Little Wonders Location - Porter St, Bradford, ON L3Z 1E8"
+      //           }
+      //           src={
+      //             "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11456.87481671335!2d-79.5618788!3d44.1201109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38027c70ffd9cb2b!2sLittle%20Wonders%20Home%20Daycare%20Bradford!5e0!3m2!1sen!2sca!4v1668461887252!5m2!1sen!2sca"
+      //           }
+      //           width="550"
+      //           height="450"
+      //           allowfullscreen=""
+      //           loading="lazy"
+      //           referrerpolicy="no-referrer-when-downgrade"
+      //         ></iframe>
+      //       )}
+      //       {isTablet && (
+      //         <iframe
+      //           title={
+      //             "Little Wonders Location - Porter St, Bradford, ON L3Z 1E8"
+      //           }
+      //           src={
+      //             "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11456.87481671335!2d-79.5618788!3d44.1201109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38027c70ffd9cb2b!2sLittle%20Wonders%20Home%20Daycare%20Bradford!5e0!3m2!1sen!2sca!4v1668461887252!5m2!1sen!2sca"
+      //           }
+      //           width="100%"
+      //           height="430"
+      //           allowfullscreen=""
+      //           loading="lazy"
+      //           referrerpolicy="no-referrer-when-downgrade"
+      //         ></iframe>
+      //       )}
+        //   </div>
+        // </div>
       </div>
     </div>
   );
