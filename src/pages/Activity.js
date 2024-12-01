@@ -2,7 +2,7 @@ import { useState } from "react";
 import activity from "../images/webp/activitypage.webp";
 import styles from "./Activity.module.css";
 import { useMediaQuery } from "react-responsive";
-/* 
+{/*
 export default function Activity() {
   const [showactivity, setactivity] = useState(true);
   const [showSamplePlan, setSamplePlan] = useState(false);
@@ -119,4 +119,4 @@ export default function Activity() {
     </div>
   );
 }
-// 
+*/}
