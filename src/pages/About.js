@@ -1,7 +1,7 @@
 import styles from "./About.module.css";
 import pfp from "../images/rohit.png";
 import house from "../images/webp//house.webp";
-/* 
+{/*
 export default function About() {
   return (
     <div className={`${styles.aboutDiv}`}>
