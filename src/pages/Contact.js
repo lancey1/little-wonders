@@ -1,7 +1,7 @@
 import styles from './Contact.module.css'
 import { useMediaQuery } from "react-responsive";
 
-
+{/*
 export default function Contact() {
 
   const isDesktop = useMediaQuery({ query: "(min-width: 1070px)" });
@@ -30,3 +30,5 @@ export default function Contact() {
     </div>
   )
 }
+
+     */}
