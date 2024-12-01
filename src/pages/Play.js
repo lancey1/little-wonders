@@ -2,7 +2,7 @@ import { useState } from "react";
 import play from "../images/webp/playpage.webp";
 import styles from "./Play.module.css";
 import { useMediaQuery } from "react-responsive";
-
+{/* 
 export default function Play() {
   const [showplay, setplay] = useState(true);
   const [showSamplePlan, setSamplePlan] = useState(false);
@@ -111,3 +111,4 @@ export default function Play() {
     </div>
   );
 }
+*/}
